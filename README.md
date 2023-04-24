@@ -11,7 +11,7 @@
 
 
 ## Proyecto: Semaforo con señalizacion para no videntes.
-(./img/Ejercicio 1-1 semafoto.png)
+![Ejercicio 1-1 semafoto](https://user-images.githubusercontent.com/122444609/234120081-8709dec8-8634-48b8-ae7e-1bcf12ffd0c4.png)
 
 
 ## Descripción
