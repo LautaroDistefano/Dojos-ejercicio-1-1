@@ -1,0 +1,77 @@
+//Lautaro Torres Distefano
+#define BUZZ 4
+#define LED_VERDE_UNO 12
+#define LED_VERDE_DOS 11
+#define LED_AMARILLO_UNO 10
+#define LED_AMARILLO_DOS 9
+#define LED_ROJO_UNO 8
+#define LED_ROJO_DOS 7
+int contador = 0;
+void avisarLedRojo(int BUZZER, int tiempo)
+{
+  int contador = 0;
+  while (contador < 10)
+  {
+    sonarBuzzer(250,250);
+    Serial.println("Suena buzzer");
+    delay(tiempo);
+    noTone(BUZZ);
+    Serial.println("Se apaga el buzzer");
+    delay(tiempo);
+    contador += 1;
+  }
+}
+
+
+void sonarBuzzer(int frecuencia , int tiempo)
+{
+  tone(BUZZ,frecuencia,tiempo);
+}
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(BUZZ, OUTPUT);
+  pinMode(LED_VERDE_UNO, OUTPUT);
+  pinMode(LED_VERDE_DOS, OUTPUT);
+  pinMode(LED_AMARILLO_UNO, OUTPUT);
+  pinMode(LED_AMARILLO_DOS, OUTPUT);
+  pinMode(LED_ROJO_UNO, OUTPUT);
+  pinMode(LED_ROJO_DOS, OUTPUT);
+}
+
+void prenderLed(int led)
+{
+  digitalWrite(led, HIGH);
+}
+  
+void apagarLed(int led)
+{
+  digitalWrite(led, LOW);
+}
+
+void loop()
+{
+  //Semaforo verdes
+  sonarBuzzer(250,5000);
+  prenderLed(12);
+  prenderLed(11);
+  delay(5000);
+  apagarLed(12);
+  apagarLed(11);
+  
+  //Semaforo amarillos
+  delay(1000);
+  sonarBuzzer(250,3000);
+  prenderLed(10);
+  prenderLed(9);
+  delay(3000);
+  apagarLed(10);
+  apagarLed(9);
+  
+  //Semaforo rojos
+  prenderLed(8);
+  prenderLed(7);
+  avisarLedRojo(4,100);
+  apagarLed(8);
+  apagarLed(7);
+}
