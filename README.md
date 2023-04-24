@@ -18,19 +18,22 @@
 Semaforo con señalizacion para no videntes que a travez de un Piezo(Buzzer) genera ruido.
 
 ## Función principal
-Esta funcion se encarga de encender y apagar los leds.
-
-B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
-
-(Breve explicación de la función)
-
+Esta funcion se encarga de encender y apagar el buzzer 10 veces.
 ~~~ C (lenguaje en el que esta escrito)
-void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
+int contador = 0;
+void avisarLedRojo(int BUZZER, int tiempo)
 {
-  digitalWrite(B3,estado3);
-  digitalWrite(B2,estado2);
-  digitalWrite(B1,estado1);
-  digitalWrite(B0,estado0);
+  int contador = 0;
+  while (contador < 10)
+  {
+    sonarBuzzer(250,250);
+    Serial.println("Suena buzzer");
+    delay(tiempo);
+    noTone(BUZZ);
+    Serial.println("Se apaga el buzzer");
+    delay(tiempo);
+    contador += 1;
+  }
 }
 ~~~
 
