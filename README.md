@@ -10,12 +10,12 @@
 - Yamila sueldo
 
 
-## Proyecto: Contador binario.
+## Proyecto: Semaforo con señalizacion para no videntes.
 ![Tinkercad](./img/ContadorBinario.png)
 
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+Semaforo con señalizacion para no videntes que a travez de un Piezo(Buzzer) genera ruido.
 
 ## Función principal
 Esta funcion se encarga de encender y apagar los leds.
