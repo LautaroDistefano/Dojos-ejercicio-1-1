@@ -52,7 +52,6 @@ void apagarLed(int led)
 void loop()
 {
   //Semaforo verdes
-  sonarBuzzer(250,5000);
   prenderLed(12);
   prenderLed(11);
   delay(5000);
@@ -61,7 +60,6 @@ void loop()
   
   //Semaforo amarillos
   delay(1000);
-  sonarBuzzer(250,3000);
   prenderLed(10);
   prenderLed(9);
   delay(3000);
