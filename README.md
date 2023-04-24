@@ -43,17 +43,12 @@ void avisarLedRojo(int BUZZER, int tiempo)
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
 ---
-### Fuentes
-- [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
-
-- [Lenguaje Markdown](https://markdown.es/sintaxis-markdown/#linkauto).
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-- [Tutorial](https://www.youtube.com/watch?v=oxaH9CFpeEE).
-
-- [Emojis](https://gist.github.com/rxaviers/7360908).
-
+## 🤖 Link al proyecto
+- [Tinkercard-Sol Rubinetti](https://www.tinkercad.com/things/iZNwefUZfGa-dojo-1-grupo-f-clase-5/editel?sharecode=4DJUVY-ezPfkTXRP7us0aNPnXKNrvgEcs_NTCFw-zh4)
+- [Tinkercard-Yamila Sueldo](https://www.tinkercad.com/things/ekHG25jeY0k-dojo-numero-uno/editel?sharecode=_ZBsYcqE1y3GENhjB3fzVXFeKbKeGMpGsUccB4qW-Ok)
+- [Tinkercard-Adrian Barrientos](https://www.tinkercad.com/things/8mgCsJsUrRK-bodacious-borwo/editel?sharecode=VCCzrcbr8gq2P9JAjRSaL-b77EM1lVzc9hE01hZxCX8)
+- [Tinkercard-Lautaro Torres](https://www.tinkercad.com/things/fSOhHiGeVdJ-ejercicio-dojo-1-1/editel?sharecode=9IKDJYqicsguvunn1_dn7oklyXOUMo9TCehS7j1dNF8)
+- [Tinkercard-Trini](https://www.tinkercad.com/things/3WUXu8RRyCe-dojo-uno-grupo-f-entrega-uno/editel?sharecode=auH-Hu3eBpDSPj273IRXl5Y4IbzwZkOZd1af6DUXJGE)
 ---
 
 
