@@ -3,7 +3,11 @@
 
 
 ## Integrantes 
-- Esteban Marcelo Quiroz  
+- Lautaro Torres Distefano
+- Adrian Barrientos
+- Sol Rubinetti
+- Trinidad Faccini
+- Yamila sueldo
 
 
 ## Proyecto: Contador binario.
