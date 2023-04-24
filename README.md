@@ -11,7 +11,7 @@
 
 
 ## Proyecto: Semaforo con señalizacion para no videntes.
-![Tinkercad](./img/ContadorBinario.png)
+![Tinkercad](./img/Ejercicio 1-1 semafoto.png)
 
 
 ## Descripción
